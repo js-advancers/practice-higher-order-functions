@@ -1,0 +1,47 @@
+{
+	"name": "practice-higher-order-functions",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest --watchAll"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://fabiankaegy@github.com/js-advancers/practice-higher-order-functions.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/js-advancers/practice-higher-order-functions/issues"
+	},
+	"homepage": "https://github.com/js-advancers/practice-higher-order-functions#readme",
+	"devDependencies": {
+		"@wordpress/eslint-plugin": "^3.1.0",
+		"jest": "^24.9.0"
+	},
+	"dependencies": {
+		"@babel/core": "^7.6.2",
+		"@babel/preset-env": "^7.6.2"
+	},
+	"babel": {
+		"presets": [
+			[
+				"@babel/preset-env"
+			]
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
